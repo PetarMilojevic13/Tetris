@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naslovna strana</title>
+    <link rel="stylesheet" href="stilovi.css">
+    <script src="tetris_javascript.js"></script>
+</head>
+<body id="naslovna_body">
+    <h1 id="naslov-tetris">Tetris</h1>
+
+    <div class="pravila_igre">
+       <p id="tekst"> U igri Tetris igrač pomera blok, koji trenutno pada sa vrha polja za igru i zaustavlja se kada dostigne dno<br>
+        ili ćeliju nekog drugog bloka.<br>
+        Kada se ceo jedan red popuni ćelijama blokova, tada taj red nestaje i svi kvadratići se spuštaju za jedan<br>
+        red ispod. Igra je gotova kada se blokovi nagomilaju do vrha polja za igru, bez mogućnosti da se novi blok pojavi.<br>
+        <br>
+        Korisnik može da pomera blok levo,desno,brže spušta na dno ili rotira u smeru kazaljke na satu.
+        <br>
+        <br>
+        </p>
+        <h3 id="naslov_komande">Komande:</h3>
+    </div>
+    <div>
+        <ul id="komande_igre">
+            <li>Levo: A ili ArrowLeft</li>
+            <li>Desno: D ili ArrowRight</li>
+            <li>Dole: S ili ArrowDown</li>
+            <li>Rotacija: W ili ArrowUp</li>
+        </ul>
+    </div>
+    <div class="podesavanja_igre">
+        <label class="podesavanja_igre">Izaberite težinu igre:</label>
+        <select id="tezina_biranje">
+            <option value="lako">lako</option>
+            <option value="srednje">srednje</option>
+            <option value="teško">teško</option>
+          </select>
+          <br>
+          <br>
+          <br>
+          <label class="podesavanja_igre">Izaberite vrste blokova koji će učestvovati u igri:</label>
+          <div id="slike_blokovi">
+            <div id="prvi_red">  
+                
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">      
+                    <img src="tetris-dodatno/I_blok.png" alt="I_blok" class="naslovna_slika_blok" value="I_blok">
+                </a>
+ 
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">  
+                    <img src="tetris-dodatno/J_blok.png" alt="J_blok" class="naslovna_slika_blok" value="J_blok">
+                </a>
+
+                 
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">  
+                    <img src="tetris-dodatno/L_blok.png" alt="L_blok" class="naslovna_slika_blok" value="L_blok">
+                </a>
+
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">  
+                    <img src="tetris-dodatno/O_blok.png" alt="O_blok" class="naslovna_slika_blok" value="O_blok">
+                </a>
+            </div>
+            <div id="drugi_red"> 
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">  
+                    <img src="tetris-dodatno/S_blok.png" alt="S_blok" class="naslovna_slika_blok" value="S_blok">
+                </a>
+
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">
+                    <img src="tetris-dodatno/T_blok.png" alt="T_blok" class="naslovna_slika_blok" value="T_blok">
+                </a>
+
+                <a href="#" class="slika_klik" onclick="promenaBordera(event)">               
+                    <img src="tetris-dodatno/Z_blok.png" alt="Z_blok" class="naslovna_slika_blok" value="Z_blok">
+                </a>
+
+            </div>
+          </div>
+
+    </div>
+
+    <div id="dugmad_naslovna">
+        <button onclick="prelazakNaListu()">Lista rezultata</button>
+        <button onclick="prelazakNaIgru()">Pređi na igru</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezultati</title>
+    <link rel="stylesheet" href="stilovi.css">
+    <script src="tetris_javascript.js"></script>
+</head>
+<body id="igra_body" onload="postavljanjeTableRezultata()">
+
+    <div id="postolje" class="rezultat_div">
+
+        <div id="lista_rezultat">
+        <h1 id="naslov_igre">Rang lista</h1>
+        <table id="tabla_korisnici_rezultati">
+            <!--<tbody id="telo_korisnici_rezultati">-->
+                <tr>
+                    <td class="rezultat_celije rez_naslov">Rb</th>
+                    <td class="rezultat_celije rez_naslov">Korisničko ime</th>
+                    <td class="rezultat_celije rez_naslov">Poeni</th>
+                </tr>
+           <!-- </tbody>-->
+
+        </table>
+        </div>
+        <div id="poslednja_igra_rezultat">
+           <table id="tabla_poslednja_igra">
+            <tr>
+                <th class="tabla_poslednji">Poslednja igra</th>
+            </tr>
+            <tr>
+                <td class="tabla_poslednji"></td>
+            </tr>
+           </table>
+        </div>
+
+        <button onclick="povratakPocetna()" id="pocetna_dugme">Vrati se na početnu stranu</button>
+    </div>
+
+
+
+
+    
+</body>
+</html>

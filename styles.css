@@ -1,0 +1,175 @@
+body
+{
+    background-color: #B2BEB5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#naslov-tetris
+{
+    text-align: center;
+    font-size:100px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.podesavanja_igre
+{    
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.naslovna_slika_blok
+{
+    border: 5px black solid;
+}
+
+
+#dugmad_naslovna
+{
+    text-align: center;
+}
+
+.slika_klik
+{
+    margin: 25px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#igra_body
+{
+    display: flex;
+    justify-content: center;
+}
+
+#igra
+{
+    display: flex;
+
+    text-align: center;
+    border: 5px black solid;
+    height: 665px;
+    width: 600px;
+    margin: 20px;
+}
+
+#postolje
+{
+    text-align: center;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0; 
+}
+
+td
+{   
+    border: 2px black solid;
+    height: 29px;
+    width: 30px;
+}
+
+th
+{
+    border: 2px black solid;
+    height: 29px;
+    width: 30px;
+}
+
+#status
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.labele_igra
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#slika_igra_blok
+{
+    width: 160px;
+}
+
+.slika_sledeci_blok
+{
+
+    margin-top: 50px;
+}
+
+button
+{
+    font-size: 25px;
+}
+
+
+.rezultat_celije
+{
+    width: 200px;
+}
+
+.rezultat_div
+{
+text-align: center;
+}
+
+.rez_naslov
+{
+    font-weight: bold;
+}
+
+#poslednja_igra_rezultat
+{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#lista_rezultat
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabla_poslednji
+{
+    text-align: center;
+    width: 600px;
+}
+
+#pocetna_dugme
+{
+    margin-top: 50px;
+}
+
+.pravila_igre
+{
+    text-align: center;
+}
+
+#komande_igre
+{
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#naslov_komande
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
